@@ -37,7 +37,7 @@ npm uninstall minimist-functions
 
 Use minimist as normal but instead of `require('minimist')` you must use `require('minimist-functions')`. 
 
-```bash
+```js
 const args = require('minimist-functions')(process.argv.slice(2), {
   alias: {
     h: 'help',
@@ -52,7 +52,7 @@ const args = require('minimist-functions')(process.argv.slice(2), {
 
 Then define / attach your functions:
 
-```bash
+```js
 const help = (val, stop) => {
   console.log('Some help')
   

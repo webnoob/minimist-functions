@@ -1,0 +1,14 @@
+{
+  "name": "minimist-functions",
+  "version": "1.0.0",
+  "description": "A wrapper for minimist to allow automatically called functions",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "webnoob <allangaunt@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}
